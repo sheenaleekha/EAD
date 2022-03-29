@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32105" started-at="2022-03-10T23:23:49Z" finished-at="2022-03-10T23:24:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32105" started-at="2022-03-10T23:23:49Z" finished-at="2022-03-10T23:24:21Z">
+      <class name="EADCheckTimeTests.CheckCaseStatus">
+        <test-method status="PASS" signature="checkMyCase(java.lang.String)[pri:0, instance:EADCheckTimeTests.CheckCaseStatus@56928307]" name="checkMyCase" duration-ms="2739" started-at="2022-03-10T15:24:16Z" data-provider="Cases" finished-at="2022-03-10T15:24:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EAC2290038985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyCase -->
+        <test-method status="PASS" signature="checkMyCase(java.lang.String)[pri:0, instance:EADCheckTimeTests.CheckCaseStatus@56928307]" name="checkMyCase" duration-ms="2519" started-at="2022-03-10T15:24:19Z" data-provider="Cases" finished-at="2022-03-10T15:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MCT2108295109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyCase -->
+      </class> <!-- EADCheckTimeTests.CheckCaseStatus -->
+      <class name="EADCheckTimeTests.CheckCaseProcessingTimes">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:EADCheckTimeTests.CheckCaseProcessingTimes@61fe30]" name="initialize" is-config="true" duration-ms="5605" started-at="2022-03-10T15:23:49Z" finished-at="2022-03-10T15:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:EADCheckTimeTests.CheckCaseStatus@56928307]" name="initialize" is-config="true" duration-ms="4426" started-at="2022-03-10T15:23:55Z" finished-at="2022-03-10T15:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="checkMyCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:EADCheckTimeTests.CheckCaseProcessingTimes@61fe30]" name="checkMyCase" duration-ms="7909" started-at="2022-03-10T15:24:01Z" data-provider="Cases" finished-at="2022-03-10T15:24:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I-765 | Application for Employment Authorization]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Based on being an H-4 spouse of an H-1B nonimmigrant (Standalone; not filed with I-539 H4) [(c)(26)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyCase -->
+        <test-method status="PASS" signature="checkMyCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:EADCheckTimeTests.CheckCaseProcessingTimes@61fe30]" name="checkMyCase" duration-ms="7109" started-at="2022-03-10T15:24:09Z" data-provider="Cases" finished-at="2022-03-10T15:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vermont]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I-765 | Application for Employment Authorization]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Based on being an H-4 spouse of an H-1B nonimmigrant (Standalone; not filed with I-539 H4) [(c)(26)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMyCase -->
+        <test-method status="PASS" signature="report()[pri:0, instance:EADCheckTimeTests.CheckCaseProcessingTimes@61fe30]" name="report" is-config="true" duration-ms="153" started-at="2022-03-10T15:24:21Z" finished-at="2022-03-10T15:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="report()[pri:0, instance:EADCheckTimeTests.CheckCaseStatus@56928307]" name="report" is-config="true" duration-ms="115" started-at="2022-03-10T15:24:21Z" finished-at="2022-03-10T15:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- EADCheckTimeTests.CheckCaseProcessingTimes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

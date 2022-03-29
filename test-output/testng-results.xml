@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27693" started-at="2022-03-28T10:20:08 PDT" finished-at="2022-03-28T10:20:36 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27693" started-at="2022-03-28T10:20:08 PDT" finished-at="2022-03-28T10:20:36 PDT">
+      <class name="EADCheckTimeTests.CheckCaseStatusTracking765">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:EADCheckTimeTests.CheckCaseStatusTracking765@2accdbb5]" name="initialize" is-config="true" duration-ms="6639" started-at="2022-03-28T10:20:08 PDT" finished-at="2022-03-28T10:20:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="checkCases(java.lang.String,java.lang.String)[pri:0, instance:EADCheckTimeTests.CheckCaseStatusTracking765@2accdbb5]" name="checkCases" duration-ms="20888" started-at="2022-03-28T10:20:14 PDT" description="To Check the status of USCIS Case" data-provider="Cases" finished-at="2022-03-28T10:20:35 PDT">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void EADCheckTimeTests.CheckCaseStatusTracking765.checkCases(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: checkCases([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) 1,(java.lang.String) EAC2290000074,(java.lang.String) Case Was Received,(java.lang.String) On September 27, 2021, we received your Form I-765, Application for Employment Authorization, Receipt Number EAC2290000074, and sent you the receipt notice that describes how we will process your case. Please follow the instructions in the notice. If you have any questions, contact the USCIS Contact Center at www.uscis.gov/contactcenter. If you move, go to www.uscis.gov/addresschange to give us your new mailing address.,(java.lang.String) RIGHT((LEFT(D2,FIND(", we",D2)-1)),LEN((LEFT(D2,FIND(", we",D2)-1)))-3),null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void EADCheckTimeTests.CheckCaseStatusTracking765.checkCases(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: checkCases([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) 1,(java.lang.String) EAC2290000074,(java.lang.String) Case Was Received,(java.lang.String) On September 27, 2021, we received your Form I-765, Application for Employment Authorization, Receipt Number EAC2290000074, and sent you the receipt notice that describes how we will process your case. Please follow the instructions in the notice. If you have any questions, contact the USCIS Contact Center at www.uscis.gov/contactcenter. If you move, go to www.uscis.gov/addresschange to give us your new mailing address.,(java.lang.String) RIGHT((LEFT(D2,FIND(", we",D2)-1)),LEN((LEFT(D2,FIND(", we",D2)-1)))-3),null]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCases -->
+        <test-method status="PASS" signature="report()[pri:0, instance:EADCheckTimeTests.CheckCaseStatusTracking765@2accdbb5]" name="report" is-config="true" duration-ms="123" started-at="2022-03-28T10:20:35 PDT" finished-at="2022-03-28T10:20:36 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- EADCheckTimeTests.CheckCaseStatusTracking765 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

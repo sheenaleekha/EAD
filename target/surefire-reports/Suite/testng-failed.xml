@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="base.ListenersNG"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="EADCheckTimeTests.CheckCaseProcessingTimes">
+        <methods>
+          <include name="checkMyCase" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- EADCheckTimeTests.CheckCaseProcessingTimes -->
+      <class name="EADCheckTimeTests.CheckCaseStatus">
+        <methods>
+          <include name="report"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- EADCheckTimeTests.CheckCaseStatus -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
